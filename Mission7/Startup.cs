@@ -36,6 +36,12 @@ namespace Mission7
             });
 
             services.AddScoped<IBookstoreRepository, EFBookstoreRepository>();
+
+            services.AddRazorPages();
+
+            services.AddDistributedMemoryCache();
+
+            services.AddSession();
         }
 
 
@@ -49,11 +55,33 @@ namespace Mission7
 
             app.UseStaticFiles();
 
+            app.UseSession();
+
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    "Page",
+                    "{category}/Page{pageNum}",
+                    new { Controller = "Home", action = "Index" }
+                    );
+
+                endpoints.MapControllerRoute(
+                "Paging",
+                "Page{pageNum}",
+                new { Controller = "Home", action = "Index", pageNum = "1" }
+                );
+
+                endpoints.MapControllerRoute(
+                "category",
+                "{category}",
+                new { Controller = "Home", action = "Index", pageNum = "1" }
+                );
+
                 endpoints.MapDefaultControllerRoute();
+
+                endpoints.MapRazorPages();
             });
         }
     }

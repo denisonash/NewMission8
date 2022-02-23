@@ -150,3 +150,9 @@
 /Users/ashleydenison/Documents/GitHub/NewMission8/Mission7/obj/Debug/netcoreapp3.1/Mission7.dll
 /Users/ashleydenison/Documents/GitHub/NewMission8/Mission7/obj/Debug/netcoreapp3.1/Mission7.pdb
 /Users/ashleydenison/Documents/GitHub/NewMission8/Mission7/obj/Debug/netcoreapp3.1/Mission7.genruntimeconfig.cache
+/Users/ashleydenison/Documents/GitHub/NewMission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Category/Default.cshtml.g.cs
+/Users/ashleydenison/Documents/GitHub/NewMission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Buy.cshtml.g.cs
+/Users/ashleydenison/Documents/GitHub/NewMission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_BuyLayout.cshtml.g.cs
+/Users/ashleydenison/Documents/GitHub/NewMission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/ashleydenison/Documents/GitHub/NewMission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/ashleydenison/Documents/GitHub/NewMission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/BookSummary.cshtml.g.cs
